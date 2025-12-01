@@ -414,9 +414,10 @@ interface KV {
 
 
 
-
 //% group="Maqueen_v5"
-//% weight=100 color=#0fbc11 icon="\uf48b" block="Maqueen v5"
+// //% weight=100 color=#0fbc11 icon="\uf48b" block="Maqueen v5"
+//% weight=100 color=#0fbc11 icon="\uf085" block="Maqueen v5"
+
 namespace Maqueen_V5 {
     let neopixel_buf = pins.createBuffer(16 * 3);
     for (let i = 0; i < 16 * 3; i++) {
